@@ -14,6 +14,8 @@ import jakarta.persistence.Table;
 @Table(name = "actor", schema = "sakila")
 public class Actor implements Serializable {
 
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "actor_id")
