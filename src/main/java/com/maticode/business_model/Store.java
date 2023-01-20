@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import com.maticode.customer_data_model.Address;
+import com.maticode.inventory_model.Inventory;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

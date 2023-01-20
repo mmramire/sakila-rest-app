@@ -3,6 +3,7 @@ package com.maticode.business_model;
 import java.time.LocalDateTime;
 
 import com.maticode.customer_data_model.Customer;
+import com.maticode.inventory_model.Inventory;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
