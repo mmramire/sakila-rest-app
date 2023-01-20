@@ -1,4 +1,4 @@
-package com.maticode.model;
+package com.maticode.customer_data_model;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

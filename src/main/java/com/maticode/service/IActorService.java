@@ -2,7 +2,7 @@ package com.maticode.service;
 
 import java.util.List;
 
-import com.maticode.model.Actor;
+import com.maticode.customer_data_model.Actor;
 
 public interface IActorService {
 

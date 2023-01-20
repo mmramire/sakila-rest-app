@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.maticode.model.Actor;
+import com.maticode.customer_data_model.Actor;
 import com.maticode.repository.ActorRepository;
 
 @Controller

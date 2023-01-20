@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.maticode.model.Actor;
+import com.maticode.customer_data_model.Actor;
 import com.maticode.repository.ActorRepository;
 
 import jakarta.transaction.Transactional;
