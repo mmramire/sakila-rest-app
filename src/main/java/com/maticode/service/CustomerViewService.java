@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.maticode.model.CustormerView;
-import com.maticode.repository.CustomerViewRepository;
+import com.maticode.dtos.CustomerViewDTO;
+import com.maticode.repository.CustomerViewRespositoryImpl;
 
 import jakarta.transaction.Transactional;
 
@@ -15,9 +15,11 @@ import jakarta.transaction.Transactional;
 public class CustomerViewService {
 
 	@Autowired
-	CustomerViewRepository repo;
+	CustomerViewRespositoryImpl customerViewRepositoryImpl;
 
-	public List<CustormerView> listAll() {
-		return repo.findAll();
+	public List<CustomerViewDTO> listAll() {
+
+		return customerViewRepositoryImpl.findAllCustomers();
+
 	}
 }

@@ -1,10 +1,11 @@
-package com.maticode;
+package com.maticode.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = { "com.maticode.controller", "com.maticode.service", "com.maticode.model",
-		"com.maticode.repository", "com.maticode.queries" })
+@SpringBootApplication(scanBasePackages = { "com.maticode.configuration", "com.maticode.controller",
+		"com.maticode.dtos", "com.maticode.exception", "com.maticode.model", "com.maticode.queries",
+		"com.maticode.repository", "com.maticode.service" })
 public class SakilaRestAppApplication {
 
 	public static void main(String[] args) {
