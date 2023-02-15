@@ -29,4 +29,12 @@ public class SQLCommands {
 	 * film_list view.
 	 */
 	public static final String SELECT_NICER_BUT_SLOWE_FILM_LIST = "SELECT * FROM nicer_but_slower_film_list";
+
+	// Staff
+
+	/*
+	 * The staff_list view provides a list of all staff members, including address
+	 * and store information.
+	 */
+	public static final String SELECT_STAFF_LIST_PARTIAL_DATA = "SELECT ID, name, address, zip_code, phone, city, country FROM staff_list;";
 }
