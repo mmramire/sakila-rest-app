@@ -23,7 +23,7 @@ import com.maticode.queries.SQLCommands;
  * @since 15/02/2023
  */
 @Repository
-public class StaffViewRepositoryImpl {
+public class StaffViewRepositoryImpl implements IStaffViewRepository {
 	private static final String SELECT_STAFF_LIST_PARTIAL_DATA = SQLCommands.SELECT_STAFF_LIST_PARTIAL_DATA;
 
 	/**
