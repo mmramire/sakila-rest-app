@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.maticode.dtos.FilmViewDTO;
-import com.maticode.repository.FilmViewRespositoryImpl;
+import com.maticode.repository.FilmViewRepositoryImpl;
 
 import jakarta.transaction.Transactional;
 
@@ -15,7 +15,7 @@ import jakarta.transaction.Transactional;
 public class FilmViewService {
 
 	@Autowired
-	FilmViewRespositoryImpl filmViewRepositoryImpl;
+	FilmViewRepositoryImpl filmViewRepositoryImpl;
 
 	public List<FilmViewDTO> listAll() {
 

@@ -23,7 +23,7 @@ import com.maticode.queries.SQLCommands;
  * @since 15/02/2023
  */
 @Repository
-public class FilmViewRespositoryImpl implements IFilmViewRepository {
+public class FilmViewRepositoryImpl implements IFilmViewRepository {
 
 //	private static final String SELECT_FILM_LIST = SQLCommands.SELECT_FILM_LIST;
 	private static final String SELECT_NICER_BUT_SLOWE_FILM_LIST = SQLCommands.SELECT_NICER_BUT_SLOWE_FILM_LIST;
@@ -39,7 +39,7 @@ public class FilmViewRespositoryImpl implements IFilmViewRepository {
 	 *
 	 * @param dataSource DataSource para acceder a la base de datos.
 	 */
-	public FilmViewRespositoryImpl(DataSource dataSource) {
+	public FilmViewRepositoryImpl(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}
 
