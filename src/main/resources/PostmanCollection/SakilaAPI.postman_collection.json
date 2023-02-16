@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "789e413b-4c6e-4506-9cca-00c92351d687",
+		"name": "SakilaAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11251002"
+	},
+	"item": [
+		{
+			"name": "Films",
+			"item": [
+				{
+					"name": "localhost:8081/sakila/films/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/sakila/films/all",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"sakila",
+								"films",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Custormers",
+			"item": [
+				{
+					"name": "localhost:8081/sakila/customer/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/sakila/customers/all",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"sakila",
+								"customers",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Staff",
+			"item": [
+				{
+					"name": "localhost:8081/sakila/staff/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/sakila/staff/all",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"sakila",
+								"staff",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
