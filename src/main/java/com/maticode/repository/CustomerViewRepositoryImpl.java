@@ -17,13 +17,13 @@ import com.maticode.queries.SQLCommands;
 /**
  * Repositorio que se encarga de realizar operaciones de consulta a la vista
  * "customer_list" en la base de datos. Implementa la interfaz
- * {@link ICustomerViewRespository}.
+ * {@link ICustomerViewRepository}.
  * 
  * @author mmram
  * @since 31/01/2023
  */
 @Repository
-public class CustomerViewRespositoryImpl implements ICustomerViewRespository {
+public class CustomerViewRepositoryImpl implements ICustomerViewRepository {
 
 	private static final String SELECT_CUSTOMER_LIST_PARTIAL_DATA = SQLCommands.SELECT_CUSTOMER_LIST_PARTIAL_DATA;
 
@@ -38,7 +38,7 @@ public class CustomerViewRespositoryImpl implements ICustomerViewRespository {
 	 *
 	 * @param dataSource DataSource para acceder a la base de datos.
 	 */
-	public CustomerViewRespositoryImpl(DataSource dataSource) {
+	public CustomerViewRepositoryImpl(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}
 
