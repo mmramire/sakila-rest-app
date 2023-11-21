@@ -78,7 +78,19 @@
 			<scope>provided</scope>
 		</dependency>
 
-
+		<!-- Agregado por tema de CORS para ver si funciona -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		
+		<!--  Logback, que es una biblioteca de registro (logging) altamente configurable y flexible para aplicaciones Java. Logback-spring proporciona una integración específica para entornos de Spring, lo que facilita su configuración y uso en proyectos Spring. -->
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<!-- ******************* FIN DEPENDENCIAS ******************* -->
