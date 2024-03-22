@@ -53,6 +53,8 @@ public class CustomerViewRepositoryImpl implements ICustomerViewRepository {
 	public List<CustomerViewDTO> findAllCustomers() {
 		List<CustomerViewDTO> customerList;
 		try {
+			// si hay que pasar params al query van por varargs, ej query(sql, new
+			// BeanPropertyRowMapper(DTO.class), usuario, nombre)
 			customerList = jdbcTemplate.query(SELECT_CUSTOMER_LIST_PARTIAL_DATA, new CustomerViewRowMapper());
 		} catch (DataAccessException e) {
 			e.printStackTrace();
